@@ -6,7 +6,7 @@ var ack = require('ac-koa').require('hipchat');
 var pkg = require('./package.json');
 var app = ack(pkg);
 
-var systranApiKey = '4d86d454-b0ab-4606-bd6e-be137840f146';
+var systranApiKey = 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx';
 
 function detectLanguage(input, cb) {
   request({
