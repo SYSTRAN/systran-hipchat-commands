@@ -1,0 +1,37 @@
+{
+  "name": "systran-hipchat-commands",
+  "version": "1.0.0",
+  "displayName": "SYSTRAN Translation & Dictionary Lookup Add-on",
+  "description": "SYSTRAN HipChat Commands",
+  "main": "systran-hipchat-commands.js",
+  "license": "Apache-2.0",
+  "scripts": {
+    "prepublish": "gulp",
+    "start": "node systran-hipchat-commands.js",
+    "tunnel": "ngrok 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "SYSTRAN S.A.",
+    "url": "http://www.systransoft.com/"
+  },
+  "engines": {
+    "node": "~0.11.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SYSTRAN/systran-hipchat-commands.git"
+  },
+  "dependencies": {
+    "ac-koa": "^0.2.6",
+    "ac-koa-hipchat": "^0.2.19",
+    "lodash": "^4.0.1",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0"
+  }
+}
